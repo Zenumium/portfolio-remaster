@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="burger.css" />
   </head>
   <body>
     <header class="container">
       <h1>My Portfolio</h1>
       <p>Showcasing Coding and Blender Projects</p>
     </header>
+    <!-- Add a button to toggle the menu -->
+    <button class="burger-menu">
+      <span class="burger-menu-icon"></span>
+    </button>
 
+    <!-- Add a div to contain the menu -->
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
     <!-- section for the intro text -->
     <section class="container">
       <h2>Introduction</h2>
@@ -50,5 +63,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>
