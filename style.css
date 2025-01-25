@@ -21,6 +21,7 @@ header {
   min-height: 70px;
   text-align: center;
   border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   border-style: solid;
   border-color: #081122;
 }
