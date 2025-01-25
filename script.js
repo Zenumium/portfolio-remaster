@@ -1,27 +1,27 @@
 const projects = [
   {
-    type: "Coding",
     title: "Web App",
-    description: "Interactive project demonstrating web development skills",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    fullDetails:
-      "Developed a comprehensive web application showcasing responsive design and interactive features. Implemented modern web technologies to create a seamless user experience.",
-  },
-  {
-    type: "Blender",
-    title: "3D Character Model",
-    description: "Detailed character render showing modeling skills",
-    techniques: ["Modeling", "Texturing", "Lighting"],
-    fullDetails:
-      "Created a high-fidelity 3D character model with intricate texturing and advanced lighting techniques. Demonstrates proficiency in Blender and 3D character design.",
-  },
-  {
     type: "Coding",
-    title: "Data Visualization",
-    description: "Interactive dashboard with complex data displays",
-    technologies: ["React", "D3.js", "ChartJS"],
-    fullDetails:
-      "Built an interactive data visualization dashboard using React and advanced charting libraries. Transformed complex data into intuitive, visually appealing graphics.",
+    description: "Interactive web development project",
+    image: "/api/placeholder/400/300",
+    fullDetails: "Comprehensive web application showcasing responsive design.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    links: {
+      github: "https://github.com/username/project",
+      liveDemo: "https://username.github.io/project",
+    },
+  },
+  {
+    title: "3D Character Model",
+    type: "Blender",
+    description: "Detailed character render",
+    image: "/api/placeholder/400/300",
+    fullDetails: "High-fidelity 3D character with advanced texturing.",
+    techniques: ["Modeling", "Texturing", "Lighting"],
+    links: {
+      artStation: "https://artstation.com/username",
+      behance: "https://behance.net/username",
+    },
   },
 ];
 
@@ -48,26 +48,36 @@ const closeModal = document.querySelector(".close-modal");
 function openModal(e) {
   const projectIndex = e.currentTarget.dataset.index;
   const project = projects[projectIndex];
+  const modal = document.getElementById("projectModal");
+  const modalDetails = document.getElementById("modalDetails");
 
   modalDetails.innerHTML = `
-            <h2>${project.title}</h2>
-            <p>${project.fullDetails}</p>
-            <h3>Technologies/Techniques:</h3>
-            <ul>${(project.technologies || project.techniques)
-              .map((tech) => `<li>${tech}</li>`)
-              .join("")}</ul>
-        `;
+      <img src="${project.image}" class="modal-image" alt="${project.title}">
+      <h2>${project.title}</h2>
+      <p>${project.fullDetails}</p>
+      <h3>Technologies:</h3>
+      <ul>${(project.technologies || project.techniques)
+        .map((tech) => `<li>${tech}</li>`)
+        .join("")}</ul>
+      <div class="project-links">
+          ${Object.entries(project.links)
+            .map(
+              ([name, url]) => `<a href="${url}" target="_blank">${name}</a>`
+            )
+            .join("")}
+      </div>
+  `;
 
   modal.style.display = "block";
 }
 
-closeModal.onclick = function () {
-  modal.style.display = "none";
+document.querySelector(".close-modal").onclick = function () {
+  document.getElementById("projectModal").style.display = "none";
 };
 
 window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == document.getElementById("projectModal")) {
+    document.getElementById("projectModal").style.display = "none";
   }
 };
 
