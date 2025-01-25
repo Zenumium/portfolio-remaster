@@ -52,7 +52,6 @@ function openModal(e) {
   const modalDetails = document.getElementById("modalDetails");
 
   modalDetails.innerHTML = `
-      <img src="${project.image}" class="modal-image" alt="${project.title}">
       <h2>${project.title}</h2>
       <p>${project.fullDetails}</p>
       <h3>Technologies:</h3>
