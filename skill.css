@@ -1,0 +1,19 @@
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
