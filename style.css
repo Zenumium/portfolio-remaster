@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
@@ -97,7 +98,7 @@ header {
 /* copyright section */
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   text-align: center;
   height: 30px;
