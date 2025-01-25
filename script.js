@@ -7,8 +7,7 @@ const projects = [
     fullDetails: "Comprehensive web application showcasing responsive design.",
     technologies: ["HTML", "CSS", "JavaScript"],
     links: {
-      github: "https://github.com/username/project",
-      liveDemo: "https://username.github.io/project",
+      github: "https://github.com/Zenumium",
     },
   },
   {
@@ -20,7 +19,6 @@ const projects = [
     techniques: ["Modeling", "Texturing", "Lighting"],
     links: {
       artStation: "https://artstation.com/username",
-      behance: "https://behance.net/username",
     },
   },
 ];
