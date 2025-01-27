@@ -27,6 +27,9 @@ header {
   border-style: solid;
   border-color: #081122;
 }
+p {
+  font-size: 20px;
+}
 #can {
   position: absolute;
   top: 0px;
