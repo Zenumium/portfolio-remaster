@@ -178,3 +178,9 @@ p {
 .wip-project a:hover {
   color: #23527c;
 }
+
+/* section for the contact */
+#contact {
+  margin-top: 50px;
+  text-align: center;
+}
