@@ -5,18 +5,24 @@ const projects = [
     description: " development project",
     image: "/api/placeholder/400/300",
     fullDetails: "Comprehensive web application showcasing responsive design.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML5", "CSS3", "JavaScript", "Golang"],
     links: {
       github: "https://github.com/Zenumium",
     },
   },
   {
-    title: "3D Character Model",
+    title: "My ArtStation",
     type: "Blender",
     description: "Detailed character render",
     image: "/api/placeholder/400/300",
     fullDetails: "High-fidelity 3D character with advanced texturing.",
-    techniques: ["Modeling", "Texturing", "Lighting"],
+    techniques: [
+      "Modeling",
+      "Texturing",
+      "Lighting",
+      "Shading",
+      "3D sculpting",
+    ],
     links: {
       artStation: "https://www.artstation.com/projecktaqua",
     },
