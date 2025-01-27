@@ -119,3 +119,51 @@ header {
     width: 100%;
   }
 }
+
+/* WIP section */
+#wip {
+  margin-top: 50px;
+}
+
+.wip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.wip-project {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.wip-project:hover {
+  transform: scale(1.03);
+}
+
+.wip-project img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.wip-project h3 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.wip-project p {
+  margin-bottom: 20px;
+}
+
+.wip-project a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.wip-project a:hover {
+  color: #23527c;
+}
