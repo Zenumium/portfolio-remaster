@@ -55,6 +55,12 @@ p {
 .project-card:hover {
   transform: scale(1.03);
 }
+.project-card img {
+  width: 100%;
+  height: 150px; /* adjust the height to your liking */
+  object-fit: cover;
+  border-radius: 10px 10px 0 0; /* optional */
+}
 .modal {
   display: none;
   position: fixed;
