@@ -3,7 +3,7 @@ const projects = [
     title: "My Github",
     type: "Coding",
     description: " development project",
-    image: "/api/placeholder/400/300",
+    image: "/image/github.png",
     fullDetails: "Comprehensive web application showcasing responsive design.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Golang"],
     links: {
@@ -14,7 +14,7 @@ const projects = [
     title: "My ArtStation",
     type: "Blender",
     description: "Detailed character render",
-    image: "/api/placeholder/400/300",
+    image: "/image/artstation.png",
     fullDetails: "High-fidelity 3D character with advanced texturing.",
     techniques: [
       "Modeling",
@@ -27,6 +27,17 @@ const projects = [
       artStation: "https://www.artstation.com/projecktaqua",
     },
   },
+  {
+    title: "My Linkedin",
+    type: "Social Media",
+    description: "More information about what a do",
+    image: "/image/linkedin.png",
+    fullDetails: "Student in zone01 school",
+    techniques: ["social media", "networking", "branding"],
+    links: {
+      Linkedin: "https://www.linkedin.com/in/valentyn-louvier-539993289/",
+    },
+  },
 ];
 
 function renderProjects() {
@@ -36,6 +47,7 @@ function renderProjects() {
     card.classList.add("project-card");
     card.dataset.index = index;
     card.innerHTML = `
+    <img src="${project.image}" alt="${project.title}">
                 <h3>${project.title}</h3>
                 <p>${project.description}</p>
                 <small>${project.type} Project</small>
