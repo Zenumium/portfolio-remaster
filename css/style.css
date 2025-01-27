@@ -23,10 +23,8 @@ header {
   padding-top: 30px;
   min-height: 70px;
   text-align: center;
-  border-radius: 0px 0px 10px 10px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-  border-style: solid;
-  border-color: #081122;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
 }
 p {
   font-size: 20px;
@@ -121,7 +119,9 @@ footer {
   height: 40px;
   width: 100%;
   color: white;
-  background-color: #333;
+  background: linear-gradient(135deg, #041944, #270468, #4a00e0);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* WIP section */
