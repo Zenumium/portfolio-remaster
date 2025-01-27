@@ -7,7 +7,7 @@ body {
   position: relative;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   cursor: default;
 }
 .container {
@@ -17,7 +17,7 @@ body {
   padding: 20px;
 }
 header {
-  background: #041944;
+  background: linear-gradient(135deg, #041944, #270468, #4a00e0);
   color: #fff;
   padding-top: 30px;
   min-height: 70px;
