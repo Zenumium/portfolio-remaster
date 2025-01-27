@@ -11,9 +11,9 @@
 *.mkv
 
 # Image files
-*.jpg
-*.jpeg
-*.png
+# *.jpg
+# *.jpeg
+# *.png
 *.gif
 *.bmp
 *.tiff
@@ -24,7 +24,3 @@
 *.webm
 
 # file to ignore
-
-*.image
-*/image.jpg
-*/image.png
