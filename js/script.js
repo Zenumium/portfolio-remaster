@@ -47,10 +47,10 @@ function renderProjects() {
     card.classList.add("project-card");
     card.dataset.index = index;
     card.innerHTML = `
-    <img src="${project.image}" alt="${project.title}">
-                <h3>${project.title}</h3>
-                <p>${project.description}</p>
-                <small>${project.type} Project</small>
+<img src="${project.image}" alt="${project.title}" srcset="${project.image}">
+  <h3>${project.title}</h3>
+  <p>${project.description}</p>
+  <small>${project.type} Project</small>
             `;
     card.addEventListener("click", openModal);
     projectGrid.appendChild(card);
