@@ -1,8 +1,8 @@
 const projects = [
   {
-    title: "Web App",
+    title: "My Github",
     type: "Coding",
-    description: "Interactive web development project",
+    description: " development project",
     image: "/api/placeholder/400/300",
     fullDetails: "Comprehensive web application showcasing responsive design.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -18,7 +18,7 @@ const projects = [
     fullDetails: "High-fidelity 3D character with advanced texturing.",
     techniques: ["Modeling", "Texturing", "Lighting"],
     links: {
-      artStation: "https://artstation.com/username",
+      artStation: "https://www.artstation.com/projecktaqua",
     },
   },
 ];
