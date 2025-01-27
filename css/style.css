@@ -11,10 +11,11 @@ body {
   cursor: default;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
-  padding: 20px;
+  padding: 50px;
+  background-color: #f7f7f7;
 }
 header {
   background: linear-gradient(135deg, #041944, #270468, #4a00e0);
@@ -108,27 +109,13 @@ p {
 
 /* copyright section */
 
-/* footer {
-  position: fixed;
+footer {
   bottom: 0;
   text-align: center;
-  height: 30px;
+  height: 40px;
   width: 100%;
   color: white;
   background-color: #333;
-} */
-
-/* responsive design */
-
-@media screen and (max-width: 768px) {
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-}
-@media screen and (max-width: 480px) {
-  .project-card {
-    width: 100%;
-  }
 }
 
 /* WIP section */
@@ -183,4 +170,16 @@ p {
 #contact {
   margin-top: 50px;
   text-align: center;
+}
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project-card {
+    width: 100%;
+  }
 }
