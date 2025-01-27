@@ -22,3 +22,9 @@
 *.flv
 *.swf
 *.webm
+
+# file to ignore
+
+*.image
+*/image.jpg
+*/image.png
