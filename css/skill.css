@@ -1,33 +1,16 @@
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  border-radius: 0px 10px 10px 0px;
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
-.html {
-  width: 60%;
-  background-color: #04aa6d;
-}
-.css {
-  width: 80%;
-  background-color: #2196f3;
-}
-.js {
-  width: 50%;
-  background-color: #f44336;
-}
-.blender {
-  width: 70%;
-  background-color: #ff7300;
-}
-.Cplusplus {
-  width: 20%;
-  background-color: #008cba;
+.skill {
+  margin: 10px;
+  text-align: center;
 }
 
-.Unity {
-  width: 40%;
-  background-color: #323333;
+.skill img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
 }
