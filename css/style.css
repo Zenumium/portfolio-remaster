@@ -145,7 +145,7 @@ footer {
   cursor: pointer;
 }
 .wip-project:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 
 .wip-project img {
