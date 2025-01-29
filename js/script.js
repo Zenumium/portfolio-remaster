@@ -1,44 +1,44 @@
-const projects = [
-  {
-    title: "My Github",
-    type: "Coding",
-    description: " development project",
-    image: "image/github.png",
-    fullDetails: "Comprehensive web application showcasing responsive design.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Golang"],
-    links: {
-      github: "https://github.com/Zenumium",
-    },
-  },
-  {
-    title: "My ArtStation",
-    type: "Blender",
-    description: "Detailed character render",
-    image: "image/artstation.png",
-    fullDetails: "High-fidelity 3D character with advanced texturing.",
-    techniques: [
-      "Modeling",
-      "Texturing",
-      "Lighting",
-      "Shading",
-      "3D sculpting",
-    ],
-    links: {
-      artStation: "https://www.artstation.com/projecktaqua",
-    },
-  },
-  {
-    title: "My Linkedin",
-    type: "Social Media",
-    description: "More information about what a do",
-    image: "image/linkedin.png",
-    fullDetails: "Student in zone01 school",
-    techniques: ["social media", "networking", "branding"],
-    links: {
-      Linkedin: "https://www.linkedin.com/in/valentyn-louvier-539993289/",
-    },
-  },
-];
+// const projects = [
+//   {
+//     title: "My Github",
+//     type: "Coding",
+//     description: " development project",
+//     image: "image/github.png",
+//     fullDetails: "Comprehensive web application showcasing responsive design.",
+//     technologies: ["HTML5", "CSS3", "JavaScript", "Golang"],
+//     links: {
+//       github: "https://github.com/Zenumium",
+//     },
+//   },
+//   {
+//     title: "My ArtStation",
+//     type: "Blender",
+//     description: "Detailed character render",
+//     image: "image/artstation.png",
+//     fullDetails: "High-fidelity 3D character with advanced texturing.",
+//     techniques: [
+//       "Modeling",
+//       "Texturing",
+//       "Lighting",
+//       "Shading",
+//       "3D sculpting",
+//     ],
+//     links: {
+//       artStation: "https://www.artstation.com/projecktaqua",
+//     },
+//   },
+//   {
+//     title: "My Linkedin",
+//     type: "Social Media",
+//     description: "More information about what a do",
+//     image: "image/linkedin.png",
+//     fullDetails: "Student in zone01 school",
+//     techniques: ["social media", "networking", "branding"],
+//     links: {
+//       Linkedin: "https://www.linkedin.com/in/valentyn-louvier-539993289/",
+//     },
+//   },
+// ];
 
 function renderProjects() {
   const projectGrid = document.getElementById("projectGrid");
