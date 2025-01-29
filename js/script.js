@@ -3,7 +3,7 @@ const projects = [
     title: "My Github",
     type: "Coding",
     description: " development project",
-    image: "../image/github.png",
+    image: "image/github.png",
     fullDetails: "Comprehensive web application showcasing responsive design.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Golang"],
     links: {
@@ -14,7 +14,7 @@ const projects = [
     title: "My ArtStation",
     type: "Blender",
     description: "Detailed character render",
-    image: "../image/artstation.png",
+    image: "image/artstation.png",
     fullDetails: "High-fidelity 3D character with advanced texturing.",
     techniques: [
       "Modeling",
@@ -31,7 +31,7 @@ const projects = [
     title: "My Linkedin",
     type: "Social Media",
     description: "More information about what a do",
-    image: "../image/linkedin.png",
+    image: "image/linkedin.png",
     fullDetails: "Student in zone01 school",
     techniques: ["social media", "networking", "branding"],
     links: {
